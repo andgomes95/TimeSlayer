@@ -3516,8 +3516,9 @@ MonoBehaviour:
     imageHero: {fileID: 21300106, guid: a5ca05d816fde45648bf7d39a74118a5, type: 3}
     name: Bazz
     setences:
-    - "TENHO QUE ALCAN\xC7AR O FINAL DA CIDADE"
-    - MAS DURANTE O PERCURSO, HA VARIOS PERIGOS
+    - AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    - QUE QUEDA ENORME, PESSADO
+    - TOMAR NO MEU $%
   read: 0
   m_Collider: {fileID: 659451815}
 --- !u!4 &659451817
@@ -12530,8 +12531,8 @@ MonoBehaviour:
     imageHero: {fileID: 21300106, guid: a5ca05d816fde45648bf7d39a74118a5, type: 3}
     name: Bazz
     setences:
-    - "TENHO QUE ALCAN\xC7AR O FINAL DA CIDADE"
-    - MAS DURANTE O PERCURSO, HA VARIOS PERIGOS
+    - NOSSA, PORQUE ESTES MONSTROS ESTAO ASSIM
+    - PARECE QUE TEM UM BUG NO CODIGO FONTE DELES
   read: 0
   m_Collider: {fileID: 2043196191}
 --- !u!4 &2043196193
