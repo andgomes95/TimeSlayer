@@ -1,24 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class Treasure : MonoBehaviour {
 
-	public bool click = false;
+	private bool click = false;
 	public Animator anime;
+
 	void OnTriggerEnter2D(Collider2D other){
-		if (other.gameObject.CompareTag("Player") ){
+        if (other.gameObject.CompareTag("Player")){
 			anime.SetBool ("click", !click);
-			StartCoroutine(waitTime());
+			StartCoroutine (waitTime ());
         }
     }
-	
-	public IEnumerator waitTime (){
-		click = false;
-		Debug.Log("HERE");
+	IEnumerator waitTime(){
 		yield return new WaitForSeconds (2);
-		Application.LoadLevel("ValentinaCroft"); //substituir pela fase que vai depois dessa
-
+		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
 	}
 }
