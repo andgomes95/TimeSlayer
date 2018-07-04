@@ -33,7 +33,9 @@ public class Enemy : MonoBehaviour {
 
     // Update is called once per frame
     void Update()
-    {
+    {	
+		bounded = false;
+		StartCoroutine (waitSec ());
 		bounded = Physics2D.OverlapCircle(boundCheck.position, 0.2f, whatIsBound);
         switch (direction)
         {
@@ -60,5 +62,8 @@ public class Enemy : MonoBehaviour {
 
 
     }
+	IEnumerator waitSec(){
+		yield return new WaitForSeconds (1);
+	}
 }
 

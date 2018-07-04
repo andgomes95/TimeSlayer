@@ -152,7 +152,7 @@ MonoBehaviour:
   boundCheck: {fileID: 4494037360271942}
   whatIsBound:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 0
   bounded: 0
 --- !u!212 &212020318149546586
 SpriteRenderer:

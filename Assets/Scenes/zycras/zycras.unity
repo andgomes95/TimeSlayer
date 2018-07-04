@@ -9852,7 +9852,7 @@ Transform:
   m_GameObject: {fileID: 1460944652}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.8, y: 0.04, z: 10}
-  m_LocalScale: {x: 0.60670507, y: 0.59312385, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1650979633}
   - {fileID: 1865171257}
@@ -9890,7 +9890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSprite: {fileID: 1460944653}
   playerTransform: {fileID: 1460944654}
-  forceJump: 200
+  forceJump: 300
   anime: {fileID: 1460944655}
   jump: 0
   run: 0
